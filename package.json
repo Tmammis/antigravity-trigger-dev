@@ -3,9 +3,11 @@
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "@hono/node-server": "^1.19.7",
-    "@trigger.dev/sdk": "4.3.2",
+    "@supabase/supabase-js": "^2.97.0",
+    "@trigger.dev/sdk": "4.4.1",
     "dotenv": "^16.4.5",
     "hono": "^4.11.3",
+    "nodemailer": "^8.0.1",
     "resend": "^6.6.0",
     "rss-parser": "^3.13.0",
     "zod": "^3.23.8"
@@ -13,6 +15,7 @@
   "description": "Agentic Workflow Framework using Trigger.dev and Gemini",
   "devDependencies": {
     "@types/node": "^20.14.9",
+    "@types/nodemailer": "^7.0.11",
     "trigger.dev": "^3.0.0-beta.46",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.3"

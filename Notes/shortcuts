@@ -1,0 +1,1 @@
+to send an email with the latest transcripts, use the following shortcut: npx ts-node src/extract-and-email.ts
